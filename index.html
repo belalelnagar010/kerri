@@ -6,6 +6,7 @@
     <link rel="icon" href="images/favicon.ico">
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
     <title>Kerri</title>
 </head>
@@ -15,7 +16,7 @@
     <section class="home vh-100" id="home">
 
       
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-lg">
       <div class="container">
         <a class="navbar-brand" href="#">
           Kerri
@@ -25,34 +26,40 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse p-sm-3 p-lg-0" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item ">
               <a class="nav-link active " aria-current="page" href="#home">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#collection">collection</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#special">special</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#offers">offers</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#blogs">blogs</a>
+              <a class="nav-link" href="#blog">blogs</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#newsletter">newsletter</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#footer">footer</a>
             </li>
           </ul>
           <div class="ms-lg-3 ms-0 me-3">
-            <i class="fab fa-twitter m-1 fs-5" title="twitter"></i>
-            <i class="fab fa-facebook-f m-1 fs-5" title="facebook"></i>
-            <i class="fab fa-instagram m-1 fs-5" title="instagram"></i>
+            <a href="" ><i class="fab fa-twitter m-1 fs-5" title="twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100076247487032" target="_link" ><i class="fab fa-facebook-f m-1 fs-5" title="facebook"></i></a>
+            <a href="" ><i class="fab fa-instagram m-1 fs-5" title="instagram"></i></a>
           </div>
         </div>
       </div>
@@ -64,7 +71,7 @@
           <h5>Welcome </h5>
           <h1 class="">I'M A </h1>
              <p>It is a long established fact that a reader will be of a page when <br> established fact looking at its layout.</p>
-              <button>DOWNLOAD CV</button> <br>
+              <button><a href="https://drive.google.com/file/d/1w64DoZMSKdYaocLNRWWZW0CCPjRhr87u/view?usp=sharing" target="_link">DOWNLOAD CV</a></button> <br>
             </div>
          
              <div class="home-icon-left-right">
@@ -98,11 +105,11 @@
       <section class="about py-5" id="about">
         <div class="container">
         <div class="row">
-          <div class="col-lg-6 p-lg-5  aout-img">
-            <img src="images/about.jpg" class="w-100" alt="">
+          <div class="col-lg-6 p-3">
+            <img src="images/about.jpg" class="img-fluid" alt="">
           </div>
           
-          <div class="col-lg-6 p-lg-5">
+          <div class="col-lg-6 p-3">
                 <div class="about-caption">
                   <h2 class="pb-3 pt-2">About My</h2>
           
@@ -137,10 +144,10 @@
         
         <section class="Services py-5" id="Services">
           <div class="container">
-            <h1 class="pb-1 text-center">our Services</h1>
+            <h1 class="pb-1 text-center title">Our <span class="sub-title">Services</span></h1>
             <p class="text-center pb-5">It is a long established fact that a reader will be of a page when <br> established fact looking at its layout.</p>
             <div class="row">
-              <div class="col-md-4 col-lg-4 col-sm-6 mb-4">
+              <div class="col-sm-6 col-m-6 col-lg-4 mb-4">
                 <div class="service-caption-1 text-center">
                   <i class="fas fa-chart-line mb-4 pt-3"></i>
                   <h2 class=""> Graphic Design</h2>
@@ -149,7 +156,7 @@
                 </div>
 
            </div>
-           <div class="col-md-4 col-lg-4 col-sm-6 mb-4 ">
+           <div class="col-sm-6 col-m-6 col-lg-4 mb-4 ">
                     <div class="service-caption-1 text-center">
                       <i class="fas fa-mug-hot mb-4  pt-3"></i>
                       <h2 class=""> Unlimited Color</h2>
@@ -158,7 +165,7 @@
                     </div>
 
            </div>
-           <div class="col-md-4 col-lg-4 col-sm-6 mb-4 ">
+           <div class="col-sm-6 col-m-6 col-lg-4 mb-4 ">
                     <div class="service-caption-1 text-center">
                       <i class="fas fa-cloud-upload-alt mb-4   pt-3"></i>
                       <h2 class=""> Media Marketing</h2>
@@ -167,7 +174,7 @@
                     </div>
 
            </div>
-           <div class="col-md-4 col-lg-4 col-sm-6 ">
+           <div class="col-sm-6 col-m-6 col-lg-4 ">
                     <div class="service-caption-1 text-center">
                       <i class="fas fa-layer-group mb-4 pt-3"></i>
                       <h2 class=""> Unlimited Wifi</h2>
@@ -176,7 +183,7 @@
                     </div>
 
            </div>
-           <div class="col-md-4 col-lg-4 col-sm-6 ">
+           <div class="col-sm-6 col-m-6 col-lg-4 ">
                     <div class="service-caption-1 text-center">
                       <i class="far fa-edit mb-4  pt-3"></i>
                       <h2 class=""> Responsive Design</h2>
@@ -185,7 +192,7 @@
                     </div>
 
            </div>
-           <div class="col-md-4 col-lg-4 col-sm-6 ">
+           <div class="col-sm-6 col-m-6 col-lg-4 ">
                     <div class="service-caption-1 text-center">
                       <i class="fab fa-intercom mb-4  pt-3"></i>
                       <h2 class=""> Easy to customize</h2>
@@ -204,6 +211,7 @@
       <div class="hier text-center ">
         <p>I Am Available For Freelancer.</p>
         <button>hire me</button>
+        <!-- <a href="https://www.linkedin.com/in/mohamed-hadaey-2114051b8/" target="_blank" class="btn bg-info"> linkedin</a> -->
 
       </div>
      </div>
@@ -215,7 +223,7 @@
    <section id="client" class="client  py-5">
     <div class="container">
       <div class=" text-center my-5 ">
-        <h2>Our Client</h2>
+        <h2 class="title">Our <span class="sub-title"> Clients</span></h2>
         <p class="client-caption  mt-3 ">It is a long established fact that a reader will be of a page
           when established fact looking at its layout.</p>
       </div>
@@ -256,11 +264,11 @@
           </div>
         </div>
         <div class="carousel-indicators position-static my-4">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          <button style="margin:10px" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          <button style="margin:10px" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          <button style="margin:10px" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
       </div>
@@ -271,12 +279,11 @@
       
    <!--end Client-->
 
-
    <!--start portflio-->
    
    <section class="portflio py-5 flexs flex-column" id="portfolio">
      <div class="portfilo-head text-center">
-       <h2 class="pb-3">Our Works</h2>
+       <h2 class="pb-3 title">Our <span class="sub-title">Work</span></h2>
        <p class="pb-3">It is a long established fact that a reader will be of a page when <br> established fact looking at its layout.</p>
   
      </div>
@@ -580,13 +587,13 @@
    <section class="blog py-5" id="blog">
     <div class="container">
       <div class="blog-head text-center">
-        <h2 >our blog</h2>
+        <h2 class="title">our <span class="sub-title">blog</span></h2>
         <p class="pb-5">It is a long established fact that a reader will be of a page when <br> established fact looking at its layout.</p>
 
       </div>
        <div class="row">
         <div class="col-md-4 mb-4">
-          <div class="card" style="width: 18rem;">
+          <div class="card"  >
             <img src="images/blog/blog-1.jpg" class="card-img-top mb-4 " alt="...">
             <div class="card-body">
               <h5 class="card-title">Contrary to popular belief</h5>
@@ -597,7 +604,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-4">
-          <div class="card" style="width: 18rem;">
+          <div class="card"  >
             <img src="images/blog/blog-2.jpg" class="card-img-top mb-4 " alt="...">
             <div class="card-body">
               <h5 class="card-title">Contrary to popular belief</h5>
@@ -608,7 +615,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-4">
-          <div class="card" style="width: 18rem;">
+          <div class="card"  >
             <img src="images/blog/blog-3.jpg" class="card-img-top mb-4 " alt="...">
             <div class="card-body">
               <h5 class="card-title">Contrary to popular belief</h5>
@@ -627,7 +634,7 @@
    <section class="blog-2 py-5" id="bloge-2">
     <div class="container">
       <div class="blog-head text-center">
-        <h2 >our blog</h2>
+        <h2 class="title">our <span class="sub-title">blog</span></h2>
         <p class="pb-5">It is a long established fact that a reader will be of a page when <br> established fact looking at its layout.</p>
           <div class="row">
             <div class="col-md-4">
